@@ -63,7 +63,7 @@
                         label = "GAMWE";
                         bindings = <
 &kp ESC       &kp Q   &kp W   &kp E         &kp R             &kp T         &kp C_VOL_UP         &kp U            &kp I         &kp O     &kp P      &kp LALT
-&kp LSHIFT    &kp A   &kp S   &kp D         &kp F             &kp G         &kp C_MUTE         &kp J            &kp K         &kp L     &kp SEMI   &kt LGUI
+&kp LSHIFT    &kp A   &kp S   &kp D         &kp F             &kp G         &kp C_MUTE         &kp C_PP            &kp K         &kp L     &kp SEMI   &kt LGUI
 &kp LCTRL     &kp Z   &kp X   &kp C         &kp V             &kp B         &kp C_VOL_DN         &kp M            &kp COMMA     &kp DOT   &kp FSLH   &to DEF
                                   &kp N3   &kp N4   &kp SPACE   &kp ESC   &kp TAB   &kp BSPC
                         >;
