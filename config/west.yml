@@ -1,11 +1,18 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/LOWPROKB
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: corne-ish-zen-v2
-      import: app/west.yml
-  self:
-    path: config
+identifier: dao
+name: Dao
+type: keyboard
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
+  - kscan
+  - nvs
+  - can
